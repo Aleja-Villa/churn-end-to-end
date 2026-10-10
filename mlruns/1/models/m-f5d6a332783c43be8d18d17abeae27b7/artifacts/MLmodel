@@ -1,0 +1,24 @@
+artifact_path: file:///C:/Users/aleja/churn-end-to-end/mlruns/1/models/m-f5d6a332783c43be8d18d17abeae27b7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.0
+model_id: m-f5d6a332783c43be8d18d17abeae27b7
+model_size_bytes: 2007214
+model_uuid: m-f5d6a332783c43be8d18d17abeae27b7
+prompts: null
+run_id: 5d56608baa694a72a95e378f404dc6fa
+utc_time_created: '2026-10-10 19:37:32.668149'
